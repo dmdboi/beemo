@@ -63,17 +63,3 @@ class Beemo {
 }
 
 module.exports = Beemo;
-
-// Example usage
-function main() {
-  const beemo = new Beemo();
-  const data = {
-    title: "Beemo",
-    items: ["Apple", "Banana", "Cherry"],
-  };
-
-  const result = beemo.render("main", data);
-  fs.writeFileSync(path.join(__dirname, "output.html"), result);
-}
-
-main();
