@@ -1,0 +1,26 @@
+{
+  "name": "beemo",
+  "version": "0.0.1",
+  "description": "A template engine",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmdboi/beemo.git"
+  },
+  "keywords": [
+    "template",
+    "engine"
+  ],
+  "author": "Max Diamond (@dmdboi)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmdboi/beemo/issues"
+  },
+  "homepage": "https://github.com/dmdboi/beemo#readme"
+}
